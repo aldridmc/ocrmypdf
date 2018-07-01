@@ -1,5 +1,4 @@
 FROM      alpine:3.7
-MAINTAINER Matthew Aldridge <dev@aldridge.eu>
 
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 
